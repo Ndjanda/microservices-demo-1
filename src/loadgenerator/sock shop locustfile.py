@@ -1,3 +1,18 @@
+# git clone https://github.com/GoogleCloudPlatform/microservices-demo.git
+# cd microservices-demo/src/loadgenerator
+
+# export FRONTEND_ADDR=localhost
+
+# rename : sock shop locustfile.py   to locustfile.py
+#  ./loadgen.sh
+
+# sock shop locustfile.py  file
+#  loadgen.sh is using test steps in : locustfile.py for steps
+
+
+
+
+
 import random
 from locust import HttpUser, TaskSet, between
 from random import randint, choice
